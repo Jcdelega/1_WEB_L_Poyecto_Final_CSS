@@ -9,11 +9,13 @@
 .vinculos a{
     color: #122130;
     text-decoration: none;
+    padding-left: 20px;
 }
 .vinculos{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 25%;
 }
 .barra_superior{
     display: flex;
@@ -55,6 +57,26 @@
 #imagen_secundaria{
     width: 95%;
     border-radius: 40px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #122130;
+    border-radius: 4px;
+    color: bisque;
+    padding: 10px;
+    text-decoration: none;
+}
+.envolvente_boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    border-radius: 3px;
 }
 h1{
     font-weight: 1000;
