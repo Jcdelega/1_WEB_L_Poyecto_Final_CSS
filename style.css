@@ -13,16 +13,18 @@
 }
 .vinculos{
     display: flex;
-    justify-content: center;
+    width: 35%;
+    justify-content: flex-end;
     align-items: center;
-    width: 25%;
 }
 .barra_superior{
     display: flex;
-}
-.logo_imagen{
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 80px;
 }
 #logo_empresa{
     width: 25%;
@@ -45,7 +47,7 @@
     background-color: rgb(96, 74, 255);
     color: rgb(255, 255, 255);
     border-radius: 30px;
-    padding: 28px 73px;
+    padding: 5px 33px;
 }
 .bloque_2{
     width: 40%;
@@ -90,7 +92,7 @@ h4{
     font-size: small;
     font-weight: 400;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
     .bloque_primario{
         flex-direction: column;
     }
@@ -104,6 +106,26 @@ h4{
 @media screen and (max-width: 768px) {
     .bloque_1{
         display: none;
+    }
+    .bloque_primario{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloque_2{
+        width: 80%;
+    }
+    .barra_superior{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo_imagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo_empresa{
+        width: 80%;
     }
     .vinculos{
         display: none;
