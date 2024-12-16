@@ -68,3 +68,22 @@ h4{
     font-size: small;
     font-weight: 400;
 }
+@media screen and (max-width:480px) {
+    .bloque_primario{
+        flex-direction: column;
+    }
+    .cita{
+        display: none;
+    }
+    .vinculos{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bloque_1{
+        display: none;
+    }
+    .vinculos{
+        display: none;
+    }
+}
